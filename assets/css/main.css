@@ -1551,10 +1551,12 @@ input, select, textarea {
 			ul li:first-child {
 				margin-top: 0;
 			}
-				ul ul li {
-					margin-top: 0;
-					list-style-type: square !important;
-				}
+			ul ul li{
+  list-style: none;
+}
+				ul ul li:before {
+  content: '✓ ';
+}
 
 	ol {
 		list-style: decimal;
